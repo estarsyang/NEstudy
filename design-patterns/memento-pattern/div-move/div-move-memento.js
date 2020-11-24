@@ -11,6 +11,11 @@ moveDiv.prototype.move = function(type,num) {
   })
   this.nowState = this.moveList.length - 1
 }
+moveDiv.prototype.init = function(target) {
+  const moveDom = document.createElement('div')
+  moveDom.setAttribute('class','move-item')
+  target.appendChild(moveDom)
+}
 
 moveDiv.prototype.go = function(){
   if(this.nowState < this.moveList.length) {
@@ -26,4 +31,5 @@ moveDiv.prototype.back=function(){
       moveDiv(_state.type,_state.num);
   }
 }
+
 
