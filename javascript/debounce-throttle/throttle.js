@@ -1,12 +1,11 @@
+// 一定时间内触发一次。简单版 throttle
 function throttle(fn, delay) {
-  let flag = true
+  let timer;
   return function(...args) {
-    console.log('flag', flag);
-    console.log(1);
-    if(!flag) return
-    setTimeout(() => {
+    if(timer) return
+    timer = setTimeout(() => {
       fn(...args)
-      flag = false
+      timer = null
     },delay)
   }
 }
