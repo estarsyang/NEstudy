@@ -1,0 +1,105 @@
+yarn run v1.22.0
+$ babel src/ -d dist/
+Node {
+  type: 'OptionalMemberExpression',
+  start: 32,
+  end: 45,
+  loc: SourceLocation {
+    start: Position { line: 2, column: 11 },
+    end: Position { line: 2, column: 24 }
+  },
+  object: Node {
+    type: 'OptionalMemberExpression',
+    start: 32,
+    end: 40,
+    loc: SourceLocation { start: [Position], end: [Position] },
+    object: Node {
+      type: 'Identifier',
+      start: 32,
+      end: 35,
+      loc: [SourceLocation],
+      name: 'foo',
+      leadingComments: undefined,
+      innerComments: undefined,
+      trailingComments: undefined
+    },
+    property: Node {
+      type: 'Identifier',
+      start: 37,
+      end: 40,
+      loc: [SourceLocation],
+      name: 'bar',
+      leadingComments: undefined,
+      innerComments: undefined,
+      trailingComments: undefined
+    },
+    computed: false,
+    optional: true,
+    leadingComments: undefined,
+    innerComments: undefined,
+    trailingComments: undefined
+  },
+  property: Node {
+    type: 'Identifier',
+    start: 42,
+    end: 45,
+    loc: SourceLocation {
+      start: [Position],
+      end: [Position],
+      identifierName: 'age'
+    },
+    name: 'age',
+    leadingComments: undefined,
+    innerComments: undefined,
+    trailingComments: undefined
+  },
+  computed: false,
+  optional: true,
+  leadingComments: undefined,
+  innerComments: undefined,
+  trailingComments: undefined
+}
+Node {
+  type: 'OptionalMemberExpression',
+  start: 32,
+  end: 40,
+  loc: SourceLocation {
+    start: Position { line: 2, column: 11 },
+    end: Position { line: 2, column: 19 }
+  },
+  object: Node {
+    type: 'Identifier',
+    start: 32,
+    end: 35,
+    loc: SourceLocation {
+      start: [Position],
+      end: [Position],
+      identifierName: 'foo'
+    },
+    name: 'foo',
+    leadingComments: undefined,
+    innerComments: undefined,
+    trailingComments: undefined
+  },
+  property: Node {
+    type: 'Identifier',
+    start: 37,
+    end: 40,
+    loc: SourceLocation {
+      start: [Position],
+      end: [Position],
+      identifierName: 'bar'
+    },
+    name: 'bar',
+    leadingComments: undefined,
+    innerComments: undefined,
+    trailingComments: undefined
+  },
+  computed: false,
+  optional: true,
+  leadingComments: undefined,
+  innerComments: undefined,
+  trailingComments: undefined
+}
+Successfully compiled 1 file with Babel (405ms).
+Done in 1.36s.
