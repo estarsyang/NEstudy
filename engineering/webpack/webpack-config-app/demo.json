@@ -1,0 +1,556 @@
+yarn run v1.22.0
+$ node scripts/build.js
+Creating an optimized production build...
+Compiler {
+  _pluginCompat: SyncBailHook {
+    _args: [ 'options' ],
+    taps: [ [Object], [Object], [Object] ],
+    interceptors: [],
+    call: [Function: lazyCompileHook],
+    promise: [Function: lazyCompileHook],
+    callAsync: [Function: lazyCompileHook],
+    _x: undefined
+  },
+  hooks: {
+    shouldEmit: SyncBailHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    done: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    additionalPass: AsyncSeriesHook {
+      _args: [],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    beforeRun: AsyncSeriesHook {
+      _args: [Array],
+      taps: [Array],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    run: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    emit: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    assetEmitted: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    afterEmit: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    thisCompilation: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    compilation: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    normalModuleFactory: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    contextModuleFactory: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    beforeCompile: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    compile: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    make: AsyncParallelHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    afterCompile: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    watchRun: AsyncSeriesHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: undefined,
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    failed: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    invalid: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    watchClose: SyncHook {
+      _args: [],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    infrastructureLog: SyncBailHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    environment: SyncHook {
+      _args: [],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    afterEnvironment: SyncHook {
+      _args: [],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    afterPlugins: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    afterResolvers: SyncHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    entryOption: SyncBailHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    infrastructurelog: SyncBailHook {
+      _args: [Array],
+      taps: [],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    }
+  },
+  name: undefined,
+  parentCompilation: undefined,
+  outputPath: '',
+  outputFileSystem: NodeOutputFileSystem {
+    mkdirp: [Function: mkdirP] {
+      mkdirP: [Circular],
+      mkdirp: [Circular],
+      sync: [Function: sync]
+    },
+    mkdir: [Function: bound mkdir],
+    rmdir: [Function: bound rmdir],
+    unlink: [Function: bound unlink],
+    writeFile: [Function: bound writeFile],
+    join: [Function: bound join]
+  },
+  inputFileSystem: CachedInputFileSystem {
+    fileSystem: NodeJsInputFileSystem {},
+    _statStorage: Storage {
+      duration: 60000,
+      running: Map {},
+      data: Map {},
+      levels: [Array],
+      count: 0,
+      interval: null,
+      needTickCheck: false,
+      nextTick: null,
+      passive: true,
+      tick: [Function: bound tick]
+    },
+    _readdirStorage: Storage {
+      duration: 60000,
+      running: Map {},
+      data: Map {},
+      levels: [Array],
+      count: 0,
+      interval: null,
+      needTickCheck: false,
+      nextTick: null,
+      passive: true,
+      tick: [Function: bound tick]
+    },
+    _readFileStorage: Storage {
+      duration: 60000,
+      running: Map {},
+      data: Map {},
+      levels: [Array],
+      count: 0,
+      interval: null,
+      needTickCheck: false,
+      nextTick: null,
+      passive: true,
+      tick: [Function: bound tick]
+    },
+    _readJsonStorage: Storage {
+      duration: 60000,
+      running: Map {},
+      data: Map {},
+      levels: [Array],
+      count: 0,
+      interval: null,
+      needTickCheck: false,
+      nextTick: null,
+      passive: true,
+      tick: [Function: bound tick]
+    },
+    _readlinkStorage: Storage {
+      duration: 60000,
+      running: Map {},
+      data: Map {},
+      levels: [Array],
+      count: 0,
+      interval: null,
+      needTickCheck: false,
+      nextTick: null,
+      passive: true,
+      tick: [Function: bound tick]
+    },
+    _stat: [Function: bound bound ],
+    _statSync: [Function: bound bound ],
+    _readdir: [Function: bound readdir],
+    _readdirSync: [Function: bound readdirSync],
+    _readFile: [Function: bound bound readFile],
+    _readFileSync: [Function: bound bound readFileSync],
+    _readJson: [Function],
+    _readJsonSync: [Function],
+    _readlink: [Function: bound bound readlink],
+    _readlinkSync: [Function: bound bound readlinkSync]
+  },
+  recordsInputPath: null,
+  recordsOutputPath: null,
+  records: {},
+  removedFiles: Set {},
+  fileTimestamps: Map {},
+  contextTimestamps: Map {},
+  resolverFactory: ResolverFactory {
+    _pluginCompat: SyncBailHook {
+      _args: [Array],
+      taps: [Array],
+      interceptors: [],
+      call: [Function: lazyCompileHook],
+      promise: [Function: lazyCompileHook],
+      callAsync: [Function: lazyCompileHook],
+      _x: undefined
+    },
+    hooks: { resolveOptions: [HookMap], resolver: [HookMap] },
+    cache2: Map {}
+  },
+  infrastructureLogger: [Function: logger],
+  resolvers: {
+    normal: { plugins: [Function: deprecated], apply: [Function: deprecated] },
+    loader: { plugins: [Function: deprecated], apply: [Function: deprecated] },
+    context: { plugins: [Function: deprecated], apply: [Function: deprecated] }
+  },
+  options: {
+    mode: 'production',
+    bail: true,
+    devtool: 'source-map',
+    entry: '/Users/ddayang/Desktop/myself/NEstudy/engineering/webpack/webpack-config-app/src/index.js',
+    output: {
+      path: '/Users/ddayang/Desktop/myself/NEstudy/engineering/webpack/webpack-config-app/build',
+      pathinfo: false,
+      filename: 'static/js/[name].[contenthash:8].js',
+      futureEmitAssets: true,
+      chunkFilename: 'static/js/[name].[contenthash:8].chunk.js',
+      publicPath: '/',
+      devtoolModuleFilenameTemplate: [Function],
+      jsonpFunction: 'webpackJsonpwebpack-config-app',
+      globalObject: 'this',
+      webassemblyModuleFilename: '[modulehash].module.wasm',
+      library: '',
+      hotUpdateFunction: 'webpackHotUpdate',
+      chunkCallbackName: 'webpackChunk',
+      devtoolNamespace: '',
+      libraryTarget: 'var',
+      sourceMapFilename: '[file].map[query]',
+      hotUpdateChunkFilename: '[id].[hash].hot-update.js',
+      hotUpdateMainFilename: '[hash].hot-update.json',
+      crossOriginLoading: false,
+      jsonpScriptType: false,
+      chunkLoadTimeout: 120000,
+      hashFunction: 'md4',
+      hashDigest: 'hex',
+      hashDigestLength: 20,
+      devtoolLineToLine: false,
+      strictModuleExceptionHandling: false
+    },
+    optimization: {
+      minimize: true,
+      minimizer: [Array],
+      splitChunks: [Object],
+      runtimeChunk: [Object],
+      removeAvailableModules: true,
+      removeEmptyChunks: true,
+      mergeDuplicateChunks: true,
+      flagIncludedChunks: true,
+      occurrenceOrder: true,
+      sideEffects: true,
+      providedExports: true,
+      usedExports: true,
+      concatenateModules: true,
+      noEmitOnErrors: true,
+      checkWasmTypes: true,
+      mangleWasmImports: false,
+      namedModules: false,
+      hashedModuleIds: false,
+      namedChunks: false,
+      portableRecords: false,
+      nodeEnv: 'production'
+    },
+    resolve: {
+      modules: [Array],
+      extensions: [Array],
+      alias: [Object],
+      plugins: [Array],
+      unsafeCache: true,
+      mainFiles: [Array],
+      aliasFields: [Array],
+      mainFields: [Array],
+      cacheWithContext: true
+    },
+    resolveLoader: {
+      plugins: [Array],
+      unsafeCache: true,
+      mainFields: [Array],
+      extensions: [Array],
+      mainFiles: [Array],
+      roots: [Array],
+      cacheWithContext: true
+    },
+    module: {
+      strictExportPresence: true,
+      rules: [Array],
+      unknownContextRequest: '.',
+      unknownContextRegExp: false,
+      unknownContextRecursive: true,
+      unknownContextCritical: true,
+      exprContextRequest: '.',
+      exprContextRegExp: false,
+      exprContextRecursive: true,
+      exprContextCritical: true,
+      wrappedContextRegExp: /.*/,
+      wrappedContextRecursive: true,
+      wrappedContextCritical: false,
+      strictThisContextOnImports: false,
+      unsafeCache: false,
+      defaultRules: [Array]
+    },
+    plugins: [
+      [WebpackSizePlugin],
+      [HtmlWebpackPlugin],
+      [InlineChunkHtmlPlugin],
+      [InterpolateHtmlPlugin],
+      [ModuleNotFoundPlugin],
+      [DefinePlugin],
+      [MiniCssExtractPlugin],
+      [ManifestPlugin],
+      [IgnorePlugin],
+      [ESLintWebpackPlugin]
+    ],
+    node: {
+      module: 'empty',
+      dgram: 'empty',
+      dns: 'mock',
+      fs: 'empty',
+      http2: 'empty',
+      net: 'empty',
+      tls: 'empty',
+      child_process: 'empty',
+      console: false,
+      process: true,
+      global: true,
+      Buffer: true,
+      setImmediate: true,
+      __filename: 'mock',
+      __dirname: 'mock'
+    },
+    performance: false,
+    cache: false,
+    context: '/Users/ddayang/Desktop/myself/NEstudy/engineering/webpack/webpack-config-app',
+    target: 'web',
+    infrastructureLogging: { level: 'info', debug: false }
+  },
+  context: '/Users/ddayang/Desktop/myself/NEstudy/engineering/webpack/webpack-config-app',
+  requestShortener: RequestShortener {
+    currentDirectoryRegExp: /(^|!)\/Users\/ddayang\/Desktop\/myself\/NEstudy\/engineering\/webpack\/webpack\-config\-app/g,
+    parentDirectoryRegExp: /(^|!)\/Users\/ddayang\/Desktop\/myself\/NEstudy\/engineering\/webpack\//g,
+    buildinsAsModule: true,
+    buildinsRegExp: /(^|!)\/Users\/ddayang\/Desktop\/myself\/NEstudy\/engineering\/webpack\/webpack\-config\-app\/node_modules\/webpack/g,
+    cache: Map {}
+  },
+  running: false,
+  watchMode: false,
+  _assetEmittingSourceCache: WeakMap { <items unknown> },
+  _assetEmittingWrittenFiles: Map {},
+  watchFileSystem: NodeWatchFileSystem {
+    inputFileSystem: CachedInputFileSystem {
+      fileSystem: NodeJsInputFileSystem {},
+      _statStorage: [Storage],
+      _readdirStorage: [Storage],
+      _readFileStorage: [Storage],
+      _readJsonStorage: [Storage],
+      _readlinkStorage: [Storage],
+      _stat: [Function: bound bound ],
+      _statSync: [Function: bound bound ],
+      _readdir: [Function: bound readdir],
+      _readdirSync: [Function: bound readdirSync],
+      _readFile: [Function: bound bound readFile],
+      _readFileSync: [Function: bound bound readFileSync],
+      _readJson: [Function],
+      _readJsonSync: [Function],
+      _readlink: [Function: bound bound readlink],
+      _readlinkSync: [Function: bound bound readlinkSync]
+    },
+    watcherOptions: { aggregateTimeout: 200 },
+    watcher: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      options: [Object],
+      watcherOptions: [Object],
+      fileWatchers: [],
+      dirWatchers: [],
+      mtimes: [Object: null prototype] {},
+      paused: false,
+      aggregatedChanges: [],
+      aggregatedRemovals: [],
+      aggregateTimeout: 0,
+      _onTimeout: [Function: bound _onTimeout],
+      [Symbol(kCapture)]: false
+    }
+  }
+}
+Failed to compile.
+
+assets is not defined
+
+
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
